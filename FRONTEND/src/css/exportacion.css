@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+.vista-previa-cotizacion h3, h4, span{
+      font-family: "Lato", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+}
+.vista-previa-cotizacion{
+      background-image: linear-gradient(to bottom, #d1d1d1, #d1d1d1, #d1d1d1, #d1d1d1, #c9c9c9);
+      padding: 1rem;
+}
+.cotizacion{
+      background-color: #FFFADE;
+      display: flex;
+      flex-direction: column;
+      margin-top: 4rem;
+      border-radius: 1rem;
+      box-shadow: 1px 1px 2px black;
+      padding: 1rem;
+}
+.logo-empresa{
+      text-align: center;
+}
+.logo-empresa img{
+      object-fit: contain;
+      width: 60%;
+}
+.info{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-left: 1rem;
+      margin-right: 1rem;
+}
+.info-cliente span,
+.info-empresa span,
+.condiciones span{
+      border-bottom: 0.5px solid #020036;
+      color: #020036;
+}
+.info-empresa h3{
+      line-height: 2.3rem ;
+}
+.tabla-cotizacion{
+      margin-top: 1rem;
+      font-size: 0.9rem;
+      border-collapse: collapse; /* Elimina el espacio entre celdas */
+      border-spacing: 0; /* Establece el espaciado de bordes en 0 */
+      border: 2px solid #020036; /* Borde uniforme alrededor de la tabla */
+}
+.tabla-cotizacion th, .tabla-cotizacion td {
+      border: 1px solid #020036;
+      padding: 8px;
+}
+.tabla-cantidad,
+.tabla-medida,
+.tabla-precio,
+.tabla-total,
+.tabla-subtotal,
+.tabla-total-general,
+.tabla-iva{
+      text-align: center;
+}
+.tabla-subtotal,
+.tabla-total-general,
+.fila-final{
+      font-weight: 900;
+      color: #020036;
+}
+.tabla-iva,
+.fila-iva{
+      color: rgb(192, 14, 14);
+      font-weight: 900;
+}
+table th{
+      color: #020036;
+      font-family: "Lato", sans-serif;
+      font-weight: 900;
+      font-style: normal;
+}
+table td{
+      font-family: "Lato", sans-serif;
+      font-weight: 500;
+      font-style: normal;
+}
+.texto-condiciones{
+      border-bottom: 0 !important;
+      color: rgb(192, 14, 14) !important;
+      font-weight: 900 !important;
+}
