@@ -5,7 +5,7 @@ import { __dirname } from './utils.js';
 
 const app = express();
 
-console.log(`Servidor Corriendo`);
+console.log(`Server corriendo correctamente ✔`);
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, '../../FRONTEND/build')));
