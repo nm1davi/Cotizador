@@ -5,15 +5,23 @@ Este es un cotizador de productos desarrollado para una ferretería. La aplicaci
 ## Tecnologías Utilizadas
 
 - **Frontend:**
+
   - React
+
   - SweetAlert2
+
   - html2canvas
+
   - jsPDF
+
   - HTML
+
   - CSS
 
 - **Backend:**
+
   - Express
+
   - Node.js
 
 ## Características
