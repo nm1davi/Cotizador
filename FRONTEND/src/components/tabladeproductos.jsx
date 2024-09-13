@@ -150,11 +150,11 @@ function Tabladeproductos() {
                     <label>
                         <input
                             type="radio"
-                            value="cuenta corriente fecha factura 30 días"
-                            checked={condicionPago === 'cuenta corriente fecha factura 30 días'}
+                            value="cuenta corriente 30 días fecha factura"
+                            checked={condicionPago === 'cuenta corriente 30 días fecha factura'}
                             onChange={handleCondicionPagoChange}
                         />
-                        <span>CUENTA CORRIENTE FECHA FACTURA 30 DÍAS</span>
+                        <span>CUENTA CORRIENTE 30 DÍAS FECHA FACTURA</span>
                     </label>
                     </div>
             </div>

@@ -12,11 +12,11 @@ export function useIva(){
         if (ivaIncluido) {
             return total;
         } else {
-            const subtotal = total / (1 + iva);
+            const subtotal = total
             return {
                 subtotal: subtotal,
                 iva: subtotal * iva,
-                total: total
+                total: total +(subtotal * iva)
             };
         }
     };
